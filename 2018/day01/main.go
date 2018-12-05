@@ -10,7 +10,7 @@ import (
 
 func main() {
 	// Load in Example File
-	inputB, err := ioutil.ReadFile("inputs/puzzleInput")
+	inputB, err := ioutil.ReadFile("inputs/Part1Input")
 	if err != nil {
 		log.Fatal(err)
 	}
